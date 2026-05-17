@@ -57,7 +57,7 @@ export default function Hero() {
           }`}
           style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}
         >
-          {['React', 'Next.js', 'Python', '.NET', 'n8n', 'JavaScript'].map((tech, idx) => (
+          {['React', 'Next.js', 'Python', '.NET', 'n8n', 'JavaScript'].map((tech) => (  
             <span
               key={tech}
               className="px-4 py-2 rounded-full glass-effect-dark border border-slate-600 text-sm font-space-mono hover:border-blue-500 hover:text-blue-400 transform hover:scale-110"
